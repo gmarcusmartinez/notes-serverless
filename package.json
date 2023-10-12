@@ -4,12 +4,13 @@
   "description": "",
   "main": "handler.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "jest": "^29.6.4",
     "serverless-iam-roles-per-function": "^3.2.0"
   },
   "dependencies": {
